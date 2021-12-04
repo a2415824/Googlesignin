@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC9E3F"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="30dp"
+        android:background="#0C0909"
+        app:cardCornerRadius="30dp"
+
+        app:cardElevation="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absolute="30dp">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="287dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:text="Logout"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="40sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="172dp"
+            android:layout_height="157dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="#0C0909"
+            app:cardBackgroundColor="#52B3B0"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="40dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/p_1" />
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
