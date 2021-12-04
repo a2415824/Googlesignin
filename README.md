@@ -10,4 +10,6 @@ This is a login page where we have a designied login button ,when we click the b
 
 There will be automatic switching to darkmode and lightmode
 
+after clicking the signin button it pop up s the google accounts menu where you see your accounts
+on simply clicking it account will automatically signined in
 
